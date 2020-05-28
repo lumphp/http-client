@@ -1,0 +1,25 @@
+{
+    "name": "lumphp/http-client",
+    "description": "PSR-18 HTTP Client",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "ext-fileinfo": "*",
+        "ext-json": "*",
+        "psr/http-message": "^1.0",
+        "php-http/message-factory": "^1.0",
+        "psr/http-client": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "undercloud",
+            "email": "lodashes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lum\\HttpClient\\": "src/"
+        }
+    }
+}
